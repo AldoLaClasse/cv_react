@@ -1,0 +1,120 @@
+{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: #f1f5f8;
+}
+
+.heading {
+  font-size: 38px;
+  font-weight: 700;
+  margin-top: 5rem;
+  text-align: center;
+  margin-bottom: 4px;
+  color: #102a42;
+}
+
+.underline {
+  width: 6%;
+  border-bottom: 4px solid #2caeba;
+  margin: 0 auto;
+}
+
+.loading {
+  font-size: 52px;
+  text-align: center;
+  margin-top: 30px;
+  font-weight: 800;
+}
+
+.main {
+  width: 70vw;
+  margin: 5vw auto;
+  display: flex;
+  column-gap: 5rem;
+}
+
+.side-btn {
+  display: flex;
+  flex-direction: column;
+  row-gap: 2rem;
+  align-items: flex-start;
+}
+
+button {
+  border: none;
+  background: none;
+}
+
+.job-btn {
+  font-size: 20px;
+}
+
+.active-btn,
+.job-btn:hover {
+  color: #2caeba;
+  border-left: 2px solid #2caeba;
+  cursor: pointer;
+}
+
+.title {
+  color: #102a42;
+  letter-spacing: 1.2px;
+  font-size: 30px;
+  font-weight: 400;
+}
+
+.sub-company {
+  color: #617d98;
+  font-size: 15px;
+  display: inline-block;
+  margin-top: 10px;
+  padding: 5px;
+  background-color: #dae2ec;
+  border-radius: 4px;
+}
+
+.dates {
+  color: #324d67;
+  margin-top: 10px;
+  font-weight: 100;
+}
+
+.job-duties {
+  margin-top: 15px;
+  display: grid;
+  grid-template-columns: 50px 1fr;
+  padding: 4px;
+}
+
+.angle-right {
+  color: #2caeba;
+}
+
+.desc {
+  color: #324d67;
+}
+
+.more-info {
+  margin: auto;
+  display: block;
+  background-color: #2caeba;
+  text-transform: uppercase;
+  width: 12%;
+  font-size: 15px;
+  color: whitesmoke;
+  padding: 10px;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.more-info:hover {
+  background-color: #88ebf2;
+  color: black;
+}
